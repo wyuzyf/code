@@ -1,0 +1,7 @@
+arguments: src/align/align_dataset_mtcnn.py /home/260158/code/face-detection/facenet/datasets/lfw/raw /home/260158/code/face-detection/facenet/datasets/lfw/lfw_mtcnnpy_160 --image_size 160 --margin 32 --random_order --gpu_memory_fraction 0.25
+--------------------
+tensorflow version: 1.3.0
+--------------------
+git hash: b'0e8b8a46ac6442fc5c1e3461ded1506490c3dcc3'
+--------------------
+b'diff --git a/tensorflow/test_tensorflow/.idea/workspace.xml b/tensorflow/test_tensorflow/.idea/workspace.xml\nindex 347e6dd..a1414d4 100644\n--- a/tensorflow/test_tensorflow/.idea/workspace.xml\n+++ b/tensorflow/test_tensorflow/.idea/workspace.xml\n@@ -76,7 +76,7 @@\n     <detection-done>true</detection-done>\n     <sorting>DEFINITION_ORDER</sorting>\n   </component>\n-  <component name="ProjectFrameBounds" extendedState="7">\n+  <component name="ProjectFrameBounds" extendedState="6">\n     <option name="y" value="28" />\n     <option name="width" value="940" />\n     <option name="height" value="763" />\n@@ -216,7 +216,7 @@\n     <servers />\n   </component>\n   <component name="ToolWindowManager">\n-    <frame x="0" y="28" width="1920" height="1018" extended-state="7" />\n+    <frame x="0" y="28" width="1920" height="1018" extended-state="6" />\n     <editor active="true" />\n     <layout>\n       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />'
