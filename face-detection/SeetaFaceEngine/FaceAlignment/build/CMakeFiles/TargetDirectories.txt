@@ -1,0 +1,2 @@
+/home/260158/code/face-detection/SeetaFaceEngine/FaceAlignment/build/CMakeFiles/fa_test.dir
+/home/260158/code/face-detection/SeetaFaceEngine/FaceAlignment/build/CMakeFiles/seeta_fa_lib.dir
