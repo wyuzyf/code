@@ -1,0 +1,3 @@
+/home/260158/code/OpenPano_C++/build/src/CMakeFiles/image-stitching.dir
+/home/260158/code/OpenPano_C++/build/src/CMakeFiles/openpano.dir
+/home/260158/code/OpenPano_C++/build/src/third-party/CMakeFiles/lodepng.dir

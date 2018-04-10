@@ -1,0 +1,51 @@
+Determining if the pthread_create exist failed with the following output:
+Change Dir: /home/260158/code/face-detection/SeetaFaceEngine/FaceDetection/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/gmake" "cmTC_86e50/fast"
+/usr/bin/gmake -f CMakeFiles/cmTC_86e50.dir/build.make CMakeFiles/cmTC_86e50.dir/build
+gmake[1]: 进入目录“/home/260158/code/face-detection/SeetaFaceEngine/FaceDetection/build/CMakeFiles/CMakeTmp”
+Building C object CMakeFiles/cmTC_86e50.dir/CheckSymbolExists.c.o
+/usr/bin/cc   -fPIC    -o CMakeFiles/cmTC_86e50.dir/CheckSymbolExists.c.o   -c /home/260158/code/face-detection/SeetaFaceEngine/FaceDetection/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_86e50
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_86e50.dir/link.txt --verbose=1
+/usr/bin/cc  -fPIC     CMakeFiles/cmTC_86e50.dir/CheckSymbolExists.c.o  -o cmTC_86e50 -rdynamic 
+CMakeFiles/cmTC_86e50.dir/CheckSymbolExists.c.o：在函数‘main’中：
+CheckSymbolExists.c:(.text+0x1b)：对‘pthread_create’未定义的引用
+collect2: 错误：ld 返回 1
+gmake[1]: *** [cmTC_86e50] 错误 1
+gmake[1]: 离开目录“/home/260158/code/face-detection/SeetaFaceEngine/FaceDetection/build/CMakeFiles/CMakeTmp”
+gmake: *** [cmTC_86e50/fast] 错误 2
+
+File /home/260158/code/face-detection/SeetaFaceEngine/FaceDetection/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <pthread.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef pthread_create
+  return ((int*)(&pthread_create))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the function pthread_create exists in the pthreads failed with the following output:
+Change Dir: /home/260158/code/face-detection/SeetaFaceEngine/FaceDetection/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/gmake" "cmTC_c3b81/fast"
+/usr/bin/gmake -f CMakeFiles/cmTC_c3b81.dir/build.make CMakeFiles/cmTC_c3b81.dir/build
+gmake[1]: 进入目录“/home/260158/code/face-detection/SeetaFaceEngine/FaceDetection/build/CMakeFiles/CMakeTmp”
+Building C object CMakeFiles/cmTC_c3b81.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -fPIC -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_c3b81.dir/CheckFunctionExists.c.o   -c /usr/local/share/cmake-3.3/Modules/CheckFunctionExists.c
+Linking C executable cmTC_c3b81
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c3b81.dir/link.txt --verbose=1
+/usr/bin/cc  -fPIC -DCHECK_FUNCTION_EXISTS=pthread_create    CMakeFiles/cmTC_c3b81.dir/CheckFunctionExists.c.o  -o cmTC_c3b81 -rdynamic -lpthreads 
+/usr/bin/ld: cannot find -lpthreads
+collect2: 错误：ld 返回 1
+gmake[1]: *** [cmTC_c3b81] 错误 1
+gmake[1]: 离开目录“/home/260158/code/face-detection/SeetaFaceEngine/FaceDetection/build/CMakeFiles/CMakeTmp”
+gmake: *** [cmTC_c3b81/fast] 错误 2
+
+

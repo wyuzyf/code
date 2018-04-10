@@ -1,0 +1,3 @@
+/home/260158/code/face-detection/SeetaFaceEngine/FaceIdentification/build/src/test/CMakeFiles/./test_face_recognizer.bin.dir
+/home/260158/code/face-detection/SeetaFaceEngine/FaceIdentification/build/src/test/CMakeFiles/./test_face_verification.bin.dir
+/home/260158/code/face-detection/SeetaFaceEngine/FaceIdentification/build/CMakeFiles/viplnet.dir

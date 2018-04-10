@@ -1,0 +1,6 @@
+删除文件夹里的文件后：
+（1）git status 查看版本库状态
+（2）git reset HEAD <文件> or git reset HEAD .    将文件从暂存区回退到工作区
+	git reset --hard~1
+（3）git commit <文件>  or  git commit .    提交修改
+（4）git push -u origin master   上传到远程仓库的分支

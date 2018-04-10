@@ -1,0 +1,1 @@
+/usr/bin/c++    -std=c++11 -fopenmp -O3 -DNDEBUG   CMakeFiles/image-stitching.dir/main.cc.o  -o image-stitching -rdynamic libopenpano.a /home/260158/anaconda2/lib/libjpeg.so third-party/liblodepng.a -Wl,-rpath,/home/260158/anaconda2/lib 

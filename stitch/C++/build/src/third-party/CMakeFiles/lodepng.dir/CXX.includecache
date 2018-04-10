@@ -1,0 +1,32 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/260158/code/OpenPano_C++/src/third-party/lodepng/lodepng.cc
+lodepng.h
+/home/260158/code/OpenPano_C++/src/third-party/lodepng/lodepng.h
+stdio.h
+-
+stdlib.h
+-
+fstream
+-
+
+/home/260158/code/OpenPano_C++/src/third-party/lodepng/lodepng.h
+string.h
+-
+vector
+-
+string
+-
+lodepng.h
+/home/260158/code/OpenPano_C++/src/third-party/lodepng/lodepng.h
+iostream
+-
+lodepng.h
+/home/260158/code/OpenPano_C++/src/third-party/lodepng/lodepng.h
+

@@ -1,0 +1,2 @@
+/home/260158/code/face-detection/SeetaFaceEngine/FaceDetection/build/CMakeFiles/facedet_test.dir
+/home/260158/code/face-detection/SeetaFaceEngine/FaceDetection/build/CMakeFiles/seeta_facedet_lib.dir

@@ -1,0 +1,42 @@
+file(REMOVE_RECURSE
+  "CMakeFiles/openpano.dir/feature/brief.cc.o"
+  "CMakeFiles/openpano.dir/feature/dist.cc.o"
+  "CMakeFiles/openpano.dir/feature/dog.cc.o"
+  "CMakeFiles/openpano.dir/feature/extrema.cc.o"
+  "CMakeFiles/openpano.dir/feature/feature.cc.o"
+  "CMakeFiles/openpano.dir/feature/gaussian.cc.o"
+  "CMakeFiles/openpano.dir/feature/matcher.cc.o"
+  "CMakeFiles/openpano.dir/feature/orientation.cc.o"
+  "CMakeFiles/openpano.dir/feature/sift.cc.o"
+  "CMakeFiles/openpano.dir/stitch/blender.cc.o"
+  "CMakeFiles/openpano.dir/stitch/camera.cc.o"
+  "CMakeFiles/openpano.dir/stitch/camera_estimator.cc.o"
+  "CMakeFiles/openpano.dir/stitch/cylstitcher.cc.o"
+  "CMakeFiles/openpano.dir/stitch/debug.cc.o"
+  "CMakeFiles/openpano.dir/stitch/homography.cc.o"
+  "CMakeFiles/openpano.dir/stitch/incremental_bundle_adjuster.cc.o"
+  "CMakeFiles/openpano.dir/stitch/multiband.cc.o"
+  "CMakeFiles/openpano.dir/stitch/stitcher.cc.o"
+  "CMakeFiles/openpano.dir/stitch/stitcher_image.cc.o"
+  "CMakeFiles/openpano.dir/stitch/stitcherbase.cc.o"
+  "CMakeFiles/openpano.dir/stitch/transform_estimate.cc.o"
+  "CMakeFiles/openpano.dir/stitch/warp.cc.o"
+  "CMakeFiles/openpano.dir/lib/color.cc.o"
+  "CMakeFiles/openpano.dir/lib/config.cc.o"
+  "CMakeFiles/openpano.dir/lib/debugutils.cc.o"
+  "CMakeFiles/openpano.dir/lib/imgio.cc.o"
+  "CMakeFiles/openpano.dir/lib/imgproc.cc.o"
+  "CMakeFiles/openpano.dir/lib/kdtree.cc.o"
+  "CMakeFiles/openpano.dir/lib/matrix.cc.o"
+  "CMakeFiles/openpano.dir/lib/planedrawer.cc.o"
+  "CMakeFiles/openpano.dir/lib/polygon.cc.o"
+  "CMakeFiles/openpano.dir/lib/timer.cc.o"
+  "CMakeFiles/openpano.dir/lib/utils.cc.o"
+  "libopenpano.pdb"
+  "libopenpano.a"
+)
+
+# Per-language clean rules from dependency scanning.
+foreach(lang CXX)
+  include(CMakeFiles/openpano.dir/cmake_clean_${lang}.cmake OPTIONAL)
+endforeach()
